@@ -6,4 +6,12 @@ fun main(){
         x = x + 1
     }
     println("After the loop. x = $x.")
+
+    val f = 5
+    val y = 1
+    if (f > y){
+        println("f is greater than y")
+    }else{
+        println("This line runs no matter what")
+    }
 }
